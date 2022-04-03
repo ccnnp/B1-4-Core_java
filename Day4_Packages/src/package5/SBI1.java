@@ -3,9 +3,9 @@ package package5;
 public class SBI1 
 {
 	private int balance;
-	private SBI1(int bal)
+	public SBI1()
 	{
-		balance=bal;
+	
 	}
 	public int getBalance()
 	{
@@ -13,7 +13,7 @@ public class SBI1
 	}
 	public void setBalance(int bal)
 	{
-		bal=balance;
+		balance=bal;
 	}
 	public void display()
 	{
