@@ -1,15 +1,15 @@
 package interface1;
 
-public interface Example2 
+interface Example4
 {
 	public void myMethod();
 }
-interface Example3
+interface Example5
 {
 	public void myOtherMethod();
 }
 
-class DemoClass implements Example2, Example3
+class DemoClass implements Example4, Example5
 {
 	public void myMethod() 
 	{
@@ -20,9 +20,9 @@ class DemoClass implements Example2, Example3
 		System.out.println("Example3");
 	}
 }
-class Main1
+public class Example3 
 {
-	public static void main(String[] args)
+	public static void main(String[] args) 
 	{
 		DemoClass m=new DemoClass();
 		m.myMethod();
