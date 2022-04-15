@@ -11,7 +11,7 @@ public class Example5
 	}
 	public static void main(String[] args) 
 	{
-		display(16,55);
+		display(17,55);
 		System.out.println("Exception handle");
 	}
 
