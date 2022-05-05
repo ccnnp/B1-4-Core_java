@@ -19,7 +19,7 @@ public class Example2
 	{
 		Example2 e=new Example2();
 		e.display(10, 20);
-		
+		e.print();
 	}
 
 }
